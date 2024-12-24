@@ -25,6 +25,11 @@ Add Docker file Commands
      docker stop "container name"
      docker start "container name" 
 
+# Docker Composer
+    create docker composer for setting up docker and command instead of writing again and again on terminal
+        docker-compose up
+        docker-compose down
+
 # Docker Hub
 Create reopsitory on docker hub first
 docker login // login from terminal
