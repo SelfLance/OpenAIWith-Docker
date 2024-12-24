@@ -15,3 +15,5 @@ Add Docker file Commands
     docker image rm "image Id"
      docker run -d -p 3000:3000 "imageID"   //  -d detached terminal and running in background
     docker run -d --rm -p 3000:3000 "imageID"   // --rm commands to remove container on stop
+    docker run -d --rm --name "CatopenAI" -p 3000:3000 "imageID"  // custom name added with --name "imagename"
+     docker build -t chat:01 . // Give name and tag to image 
