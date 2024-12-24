@@ -13,3 +13,4 @@ Add Docker file Commands
     docker run -p 3000:3000 "imageID"   // To access port outside container
     docker rm "Container Name or Id"
     docker image rm "image Id"
+     docker run -d -p 3000:3000 "imageID"   // To access port outside container and -d detached terminal and running in background
