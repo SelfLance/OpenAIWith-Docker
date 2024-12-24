@@ -78,6 +78,9 @@ app.post("/generate-question", async (req, res) => {
     return res.status(500).json({ error: "Failed to generate question." });
   }
 });
+app.get('/',(req,res)=>{    
+    res.send("Hello World Docker is Running")
+})
 
 // Start the server
 app.listen(PORT, () => {
