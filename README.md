@@ -19,6 +19,8 @@ Add Docker file Commands
      docker build -t chat:01 . // Give name and tag to image 
      docker rmi "name or id" // remove docker image
      docker image tag "Oldname:tag" "newName:tag" // change name of image
+     docker log "images" // Check images status failed or something else
+     docker inspect "container name" // To check ip address and other data of specific container
 
 # Docker Hub
 Create reopsitory on docker hub first
