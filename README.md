@@ -22,6 +22,9 @@ Add Docker file Commands
      docker log "images" // Check images status failed or something else
      docker inspect "container name" // To check ip address and other data of specific container
 
+     docker stop "container name"
+     docker start "container name" 
+
 # Docker Hub
 Create reopsitory on docker hub first
 docker login // login from terminal
