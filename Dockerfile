@@ -2,7 +2,9 @@ FROM node:18
 
 WORKDIR /CHATOPENAI
 
-COPY  . .
+COPY  ./package.json .
+COPY  ./server.js .
+COPY  ./package-lock.json .
 
 RUN npm install
 
